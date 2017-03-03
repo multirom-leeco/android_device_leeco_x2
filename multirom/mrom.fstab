@@ -1,0 +1,11 @@
+/boot       emmc   /dev/block/sde18
+/recovery   emmc   /dev/block/sde20
+/system     ext4   /dev/block/sde19
+/data       ext4   /dev/block/sda9	flags=encryptable=footer;length=-16384
+/data       f2fs   /dev/block/sda9
+/cache      ext4   /dev/block/sda3
+/cache      f2fs   /dev/block/sda3
+/persist	ext4	/dev/block/sda2
+/firmware   vfat   /dev/block/sde12
+
+/usb_otg		vfat	/dev/block/sdg1 	/dev/block/sdg		flags=display="USB-OTG";storage;wipeingui;removable
