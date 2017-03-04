@@ -39,16 +39,23 @@ const char *mr_init_devices[] =
     // for input
     "/sys/devices/virtual/input*",
     "/sys/devices/virtual/input/input0",
+    "/sys/devices/virtual/input/input1",
+    "/sys/devices/virtual/input/input2",
+    "/sys/devices/virtual/input/input4",
     "/sys/devices/virtual/misc/uinput",
-    "/sys/devices/soc/soc:gpio_keys/input4*",
-    "/sys/devices/soc/soc:gpio_keys/input0*",
-    "/sys/bus/platform/devices/gpio_keys/input*"
+    "/sys/devices/soc/soc:gpio_keys/input/input5",
+    "/sys/bus/platform/devices/soc:gpio_keys/input/input5"
     "/sys/devices/virtual/misc/uinput",
     "/sys/devices/virtual/misc/uinput/*",
-    "/sys/devices/soc/75b6000.i2c/i2c-8/8-0020/input*",
-    "/sys/devices/soc/75b6000.i2c/i2c-8/8-0020/input/input6*",
-    "/sys/devices/soc/7577000.i2c/i2c-3/3-0036/*",
-    "/sys/devices/soc/75ba000.i2c/i2c-12/12-0020/input/input4*",
+    "/sys/devices/soc/75b6000.i2c/i2c-8/8-0034/*",
+    "/sys/devices/soc/75b6000.i2c/i2c-8/8-0051/*",
+    "/sys/devices/soc/757a000.i2c/i2c-6/6-0008/*",
+    "/sys/devices/soc/757a000.i2c/i2c-6/6-0051/*",
+    "/sys/devices/soc/75ba000.i2c/i2c-12/12-004a/*",
+    "/sys/devices/soc/75ba000.i2c/i2c-12/12-004b/*",
+    "/sys/devices/soc0*",
+    "/sys/devices/soc0/*",
+
 
     // for adb
     "/sys/class/tty/ptmx",
@@ -65,5 +72,9 @@ const char *mr_init_devices[] =
 
     // for qualcomm overlay - /dev/ion
     "/sys/devices/virtual/misc/ion",
+
+    // Adding Wildcard for Debug And for Bringup
+    "/sys/*",
+
     NULL
 };
