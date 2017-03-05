@@ -21,7 +21,7 @@ Rear Camera  | 21.0 MP, LED flash
 Front Camera | 8.0 MP
 Release Date | April 2016
 
-![Le X820](http://img2.hdletv.com/file/20160905/default/12511498927079974 "Le X820")
+![Le X820](http://i.imgur.com/OP39Rqu.png "Le X820")
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
@@ -52,20 +52,20 @@ Full Compilation:
 	$ make multirom_uninstaller
 
 
-=== Credits:
+### Credits:
 
-andr68rus - porting Multirom to LeMax 2
+* [@andr68rus] (https://forum.xda-developers.com/member.php?u=7884203) - porting Multirom to LeMax 2
 
-=== Thanks to:
+### Thanks to:
 
-Tasssadar - For his awesome MultiRom
+* [@Tasssadar] (https://forum.xda-developers.com/member.php?u=3418703) - For his awesome MultiRom
 
-nkk71 - For his No-KEXEC workaround
+* [@nkk71] (https://forum.xda-developers.com/member.php?u=2605798) - For his No-KEXEC workaround
 
-deadman96385 - For official TWRP for LeMax2 sources
+* [@deadman96385] (https://forum.xda-developers.com/member.php?u=4222965) - For official TWRP for LeMax2 sources
 
-Rishabh Rao - For sources MultiRom for Le 2, instructions, etc
+* [@Rishabh Rao] (https://forum.xda-developers.com/member.php?u=5890172) - For sources MultiRom for Le 2, instructions, etc
 
-Martinusbe - For sources MultiRom for OP3
+* [@Martinusbe] (https://forum.xda-developers.com/member.php?u=4139665) - For sources MultiRom for OP3
 
-Enjoy it ;)
+#### Enjoy it :sunglasses:
