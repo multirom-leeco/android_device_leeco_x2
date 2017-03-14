@@ -1,5 +1,4 @@
 # MultiRom TWRP Tree for LeEco Le Max 2 (x2)
-==============
 
 The LeEco Le Max 2 (x2) is a smartphone from LeEco or LeMobile Information Technology Co. Ltd.
 
@@ -21,15 +20,15 @@ Rear Camera  | 21.0 MP, LED flash
 Front Camera | 8.0 MP
 Release Date | April 2016
 
-![Le X820](http://i.imgur.com/OP39Rqu.png "Le X820")
+![LeEco Le Max2](http://drop.ndtv.com/TECH/product_database/images/420201665108PM_635_leeco_le_max_2_front.jpeg "LeEco Le Max2")
 
-To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
+To initialize your local repository using the Omnirom trees to build TWRP, use a command like this:
 
 	$ repo init -u git://github.com/omnirom/android.git -b android-6.0
 
 Initialize MultiRom trees:
 
-	$ mkdir .repo/local_manifests; curl https://raw.githubusercontent.com/multirom-x2/local_manifests/master/x2.xml > .repo/local_manifests/x2.xml
+	$ mkdir .repo/local_manifests; curl https://raw.githubusercontent.com/multirom-leeco/local_manifests/master/roomservice.xml > .repo/local_manifests/roomservice.xml
 
 Then to sync up:
 
@@ -46,8 +45,6 @@ Full Compilation:
 	$ make recoveryimage
 		
 	$ make multirom_zip
-
-	( If you get error, look at this pull request: https://github.com/Tasssadar/multirom_adbd/pull/2/commits/b7395a7f8b397e75024610e2f3c965bb90fbd2e7 )
 
 	$ make multirom_uninstaller
 
