@@ -128,7 +128,7 @@ MR_DEVICE_SPECIFIC_VERSION := b
 MR_POPULATE_BY_NAME_PATH := "/dev/block/platform/soc/624000.ufshc/by-name"
 
 # MultiRom Recovery Version
-include device/leeco/x2/MR_REC_VERSION.mk
+include device/leeco/x2/multirom/MR_REC_VERSION.mk
 ifeq ($(MR_REC_VERSION),)
 MR_REC_VERSION := $(shell date -u +%Y%m%d)-01
 endif
