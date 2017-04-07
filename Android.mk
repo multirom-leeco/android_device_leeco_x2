@@ -1,5 +1,6 @@
 #
-# Copyright 2016 The Android Open Source Project
+# Copyright (C) 2017 The Android Open Source Project
+# Copyright (C) 2017 Andrey Shidakov
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,12 +13,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-
-ifneq ($(filter x2,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(TARGET_DEVICE),x2)
+
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+include $(CLEAR_VARS)
 
 endif
