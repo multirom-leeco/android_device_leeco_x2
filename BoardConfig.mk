@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := le_x2,LeMax2_CN,LeMax2_NA,x2
+TARGET_OTA_ASSERT_DEVICE := le_x2,le_x2_na,LeMax2_CN,LeMax2_NA,x2
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8996
@@ -109,7 +109,7 @@ MR_FSTAB := device/leeco/x2/recovery.fstab
 MR_KEXEC_MEM_MIN := 0x0
 MR_DEVICE_HOOKS := device/leeco/x2/multirom/mr_hooks.c
 MR_DEVICE_HOOKS_VER := 4
-MR_DEVICE_VARIANTS := x2 le_x2 LeMax2_CN LeMax2_NA
+MR_DEVICE_VARIANTS := x2 le_x2 le_x2_na LeMax2_CN LeMax2_NA
 MR_PIXEL_FORMAT := "RGBA_8888"
 MR_USE_QCOM_OVERLAY := true
 MR_QCOM_OVERLAY_HEADER := device/leeco/x2/multirom/mr_qcom_overlay.h
